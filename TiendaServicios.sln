@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicio.Api.Libro", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicio.Api.CarritoCompra", "TiendaServicio.Api.CarritoCompra\TiendaServicio.Api.CarritoCompra.csproj", "{9CD3BF7A-4C29-4419-81B7-DEF363F5EB70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicio.Api.Libro.Tests", "TiendaServicio.Api.Libro.Tests\TiendaServicio.Api.Libro.Tests.csproj", "{0D07C43C-C2E6-45E0-B68E-7C727A964650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicio.Api.Libro.Tests", "TiendaServicio.Api.Libro.Tests\TiendaServicio.Api.Libro.Tests.csproj", "{0D07C43C-C2E6-45E0-B68E-7C727A964650}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CA5A940D-14FC-47E5-8662-5FBE948FED9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicio.Api.Gatewey", "TiendaServicio.Api.Gatewey\TiendaServicio.Api.Gatewey.csproj", "{CE3321C5-AC29-4B87-985C-468BB171BD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiendaservicio.api.RabbitMQ.Bus", "tiendaservicio.api.RabbitMQ.Bus\tiendaservicio.api.RabbitMQ.Bus.csproj", "{7672C668-DB93-42AE-864D-4BC5E316E53D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{0D07C43C-C2E6-45E0-B68E-7C727A964650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D07C43C-C2E6-45E0-B68E-7C727A964650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D07C43C-C2E6-45E0-B68E-7C727A964650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5A940D-14FC-47E5-8662-5FBE948FED9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5A940D-14FC-47E5-8662-5FBE948FED9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5A940D-14FC-47E5-8662-5FBE948FED9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5A940D-14FC-47E5-8662-5FBE948FED9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3321C5-AC29-4B87-985C-468BB171BD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3321C5-AC29-4B87-985C-468BB171BD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3321C5-AC29-4B87-985C-468BB171BD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3321C5-AC29-4B87-985C-468BB171BD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7672C668-DB93-42AE-864D-4BC5E316E53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7672C668-DB93-42AE-864D-4BC5E316E53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7672C668-DB93-42AE-864D-4BC5E316E53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7672C668-DB93-42AE-864D-4BC5E316E53D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
