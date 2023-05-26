@@ -54,7 +54,8 @@ namespace TiendaServicio.Api.Gatewey
             {
                 endpoints.MapControllers();
             });
-             app.UseOcelot().Wait();
+
+            app.UseOcelot().Wait();
         }
     }
 }

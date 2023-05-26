@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "tiendaservicio.api.libro",
-          "Port": "80"
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Libro",
@@ -19,7 +19,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "tiendaservicio.api.libro",
-          "Port": "80"
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Libro/{id}",
@@ -34,7 +34,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "tiendaservicio.api.autor",
-          "Port": "80"
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Autor",
@@ -47,7 +47,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "tiendaservicio.api.autor",
-          "Port": "80"
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Autor/{id}",
@@ -59,7 +59,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "tiendaservicio.api.carritocompra",
-          "Port": "80"
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CarritoCompra",
@@ -71,7 +71,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "tiendaservicio.api.carritocompra",
-          "Port": "80"
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CarritoCompra/{id}",
