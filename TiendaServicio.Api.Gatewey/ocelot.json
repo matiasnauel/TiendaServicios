@@ -39,7 +39,7 @@
       ],
       "UpstreamPathTemplate": "/Autor",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
-      "Key": "AutoTotal"
+      "Key": "AutorTotal"
     },
     {
       "DownstreamPathTemplate": "/api/Autor/{id}",
@@ -82,7 +82,7 @@
     {
       "RouteKeys": [
         "LibroTotal",
-        "AutoTotal"
+        "AutorTotal"
       ],
       "UpstreamPathTemplate": "/LibroAutor"
     }
