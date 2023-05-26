@@ -15,6 +15,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TiendaServicio.api.Autor.aplicacion;
+using TiendaServicio.api.Autor.helper;
 using TiendaServicio.api.Autor.persistencia;
 
 namespace TiendaServicio.api.Autor
@@ -38,8 +39,12 @@ namespace TiendaServicio.api.Autor
                 options.UseNpgsql(Configuration.GetConnectionString("ConexionDatabase"));
             });
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
+            services.AddScoped<ILoggin, Loggin>();
+            services.AddScoped<ILogger, Logger<Loggin>>();
+            services.AddScoped<IMapperCustom, MapperCustom>();
+            services.AddScoped<IMapper, Mapper>();
             services.AddAutoMapper(typeof(Consulta.Manejador));
-        }
+        }s
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
